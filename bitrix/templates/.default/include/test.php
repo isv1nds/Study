@@ -37,26 +37,26 @@ class iblockTest{
 
             $bread=array();
             $res=CIBlockElement::GetByID($id);
-            if($ar_res = $res->GetNext()) {$name=$ar_res['NAME']; $iblock=$ar_res['IBLOCK_ID'];}
+            if($ar_res = $res->GetNext()) {$name=$ar_res['NAME']; $iblock=$ar_res['IBLOCK_ID'];} // получаем имя элемента и id инф. блока
             $res=CIBlockSection::GetList(array(), array('IBLOCK_ID'=>$iblock),false, array('ID','DEPTH_LEVEL','NAME','IBLOCK_SECTION_ID'));
             while($ar_res = $res->GetNext()){
 
-                $razd[]=$ar_res;
+                $razd[]=$ar_res;//список всех разделов инфоблока, чтоб не делать запрос всякий раз, когда нам нужен parent
             }
 
-            $res = CIBlockElement::GetElementGroups($id,false, array('ID','DEPTH_LEVEL','NAME','IBLOCK_SECTION_ID'));
+            $res = CIBlockElement::GetElementGroups($id,false, array('ID','DEPTH_LEVEL','NAME','IBLOCK_SECTION_ID'));//все разделы, которым принадлежит элемент
 
             while($ar_res = $res->GetNext()){
-                $path=$name.' < '.$ar_res['NAME'];
+                $path=$name.' < '.$ar_res['NAME'];//добавляем текущего родителя элемента в цепочку
 
-                if($ar_res['DEPTH_LEVEL']>1) {
+                if($ar_res['DEPTH_LEVEL']>1) { //и если у него тоже есть родитель
                     $depth=$ar_res['DEPTH_LEVEL'];
-                    $parent=$ar_res['IBLOCK_SECTION_ID'];//
+                    $parent=$ar_res['IBLOCK_SECTION_ID'];
 
                     while($depth>1){
 
                         foreach($razd as $val){
-                            if( $val['ID']==$parent){
+                            if( $val['ID']==$parent){//перебераем массив $razd с данными раздела, пока уровень вложенности не станет 1
                                 $path=$path.' < '.$val['NAME'];
                                 $depth=$val['DEPTH_LEVEL'];
                                 $parent=$val['IBLOCK_SECTION_ID'];
@@ -69,7 +69,7 @@ class iblockTest{
 
                 }
 
-                $bread[]=$path;
+                $bread[]=$path;//сохраняем путь
             }
             return $bread;
 
