@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Members Only"
+AuthUserFile /mnt/data/sites/clients/client1/web155/web/stats/.htpasswd_stats
+require valid-user

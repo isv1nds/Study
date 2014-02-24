@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/mnt/data/sites/mishin.test.newsite.by/web/bitrix/js/main/core/css/core.css" => "13926335838960","/mnt/data/sites/mishin.test.newsite.by/web/bitrix/js/main/core/css/core_popup.css" => "139263358315855",), 'CUR_SEL_CNT' => '176', 'CUR_IE_CNT' => '0'); ?>

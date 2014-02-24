@@ -1,0 +1,7 @@
+<?
+$MESS['WORKTIME']="working time";
+
+
+
+
+?>
