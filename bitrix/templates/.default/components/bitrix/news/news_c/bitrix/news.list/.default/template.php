@@ -14,7 +14,7 @@
 <div class="ps_head"><a class="ps_head_link" href="<?echo $arItem["DETAIL_PAGE_URL"]?>"><h2 class="ps_head_h"><?echo $arItem["NAME"]?></h2></a><span class="ps_date">29 августа 2012</span></div>
 <div class="ps_content">
     <?if(is_array($arItem["PREVIEW_PICTURE"])):?>
-    <img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" align="left" alt=""/>
+    <img src="<?=$arItem["PREVIEW_PICTURE"]["src"]?>" align="left" alt=""/>
     <?endif;?>
     <?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
         <?echo $arItem["PREVIEW_TEXT"];?>

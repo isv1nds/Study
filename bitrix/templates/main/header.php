@@ -14,7 +14,7 @@ IncludeTemplateLangFile(__FILE__);
           $APPLICATION->SetAdditionalCSS("/bitrix/templates/.default/template_styles.css");
           $APPLICATION->AddHeadScript('/bitrix/templates/.default/js/jquery-1.8.2.min.js');
           $APPLICATION->AddHeadScript('/bitrix/templates/.default/js/slides.min.jquery.js');
-          $APPLICATION->AddHeadScript('/bitrix/templates/.default/js/jquery.carouFredSel-6.1.0-packed.js');
+
           $APPLICATION->AddHeadScript('/bitrix/templates/.default/js/functions.js');
 
    ?>

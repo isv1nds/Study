@@ -266,8 +266,26 @@ if (!empty($arResult['ITEMS']))
 	}
 
 	$arNewItemsList = array();
+
+    if(CModule::IncludeModule("iblock")){
+        $mass=array();
+        $res=CIBlockElement::GetList(array(), array("IBLOCK_ID"=>5),false, false, array("PROPERTY_LINK"));
+        while( $ar_res = $res->GetNext()){
+            $mass[]=$ar_res["PROPERTY_LINK_VALUE"];
+
+        }
+
+    }
+
+    $flag=false;
+
 	foreach ($arResult['ITEMS'] as $key => $arItem)
 	{
+        if(array_search($arItem["ID"] ,$mass)) {$arItem['SPEC_PRED']=true;
+            $flag=true;
+
+        }
+
 		$arItem['SECOND_PICT'] = false;
 		$arItem['PREVIEW_PICTURE_SECOND'] = false;
 		$arItem['CHECK_QUANTITY'] = false;
@@ -651,4 +669,19 @@ if (!empty($arResult['ITEMS']))
 	$arResult['ITEMS'] = $arNewItemsList;
 	$arResult['SKU_PROPS'] = $arSKUPropList;
 }
+/*
+ *
+ *
+ */
+$cp=$this->__component;
+
+if($flag) {
+    $arResult["ISSPEC"]=true;
+$cp->SetResultCacheKeys(array("ISSPEC"));
+
+
+}
+
+
+
 ?>

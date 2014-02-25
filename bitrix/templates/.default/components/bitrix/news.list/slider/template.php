@@ -22,8 +22,13 @@
                 <img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="" />
                 <?endif;?>
                 <h2><a href="<?=$arItem['PROPERTIES']['LINK']['VALUE']?>"><?echo $arItem["NAME"]?></a></h2>
-                <p><?echo $arItem["PREVIEW_TEXT"];?></p>
-                <a href="<?=$arItem['PROPERTIES']['LINK']['VALUE']?>" class="sl_more"><?=GetMessage('MORE')?> &rarr;</a>
+                <p><?=$arItem["PREVIEW_TEXT"];?></p>
+
+                <?if( is_array($arItem['TOVAR'])):?>
+                    <strong><?=$arItem['TOVAR']['NAME']?></strong> - <?=$arItem['TOVAR']['PROPERTY_PRICE_VALUE']?> руб.<br/>
+                   <?=substr($arItem['TOVAR']['PREVIEW_TEXT'],0,50)?>...<br/>
+                <a href="<?=$arItem['TOVAR']['DETAIL_PAGE_URL']?>" title="<?=$arItem['TOVAR']['NAME']?>" class="sl_more"><?=GetMessage('MORE')?> &rarr;</a>
+                <?endif;?>
             </div>
         </div>
 

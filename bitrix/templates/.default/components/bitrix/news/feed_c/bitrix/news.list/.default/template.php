@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="review-img-wrap">  <?if( is_array($arItem["PREVIEW_PICTURE"])):?>
-            <a href="<?=$arItem["DETAIL_PAGE_URL"]?>">  <img src="<?echo $arItem["PREVIEW_PICTURE"]["SRC"];?>" class="rw_avatar" alt=""/></a>
+            <a href="<?=$arItem["DETAIL_PAGE_URL"]?>">  <img src="<?=$arItem["PREVIEW_PICTURE"]["src"]?>" class="rw_avatar" alt=""/></a>
             <?endif?></div>
     </div>
 

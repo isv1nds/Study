@@ -10,4 +10,5 @@ foreach($arResult["ITEMS"] as $key => $arElement)
 	}
 	$arResult["ITEMS"][$key]["DISPLAY_PROPERTIES"] = $arRes;
 }
+
 ?>

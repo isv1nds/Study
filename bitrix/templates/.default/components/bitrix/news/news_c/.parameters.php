@@ -75,4 +75,15 @@ if ($arCurrentValues["USE_SHARE"] == "Y")
 	);
 }
 
+$arTemplateParameters["NEWS_IMG_H"] = array(
+    "NAME" => GetMessage("NEWS_IMG_H"),
+    "TYPE" => "STRING",
+    "DEFAULT" => "100",
+);
+
+$arTemplateParameters["NEWS_IMG_W"] = array(
+    "NAME" => GetMessage("NEWS_IMG_W"),
+    "TYPE" => "STRING",
+    "DEFAULT" => "200",
+);
 ?>

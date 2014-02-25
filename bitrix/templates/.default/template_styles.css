@@ -1366,8 +1366,8 @@ input{outline:none !important}
 }
 .sb_reviewed .sb_rw_avatar,
 .rw_avatar{
-    width:40px;
-    height:40px;
+   /* width:40px;
+    height:40px;*/
     padding:5px;
     overflow:hidden;
     float:left;

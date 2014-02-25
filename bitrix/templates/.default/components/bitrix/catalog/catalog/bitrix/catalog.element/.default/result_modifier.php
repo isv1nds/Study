@@ -1,8 +1,41 @@
 <?
 if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED!==true) die();
 
+if(CModule::IncludeModule("iblock")){
+    $mass=array();
+    $res=CIBlockElement::GetList(array(), array("IBLOCK_ID"=>5,"PROPERTY_LINK"=>$arResult["ID"]),false, false, array("PROPERTY_LINK","PREVIEW_TEXT"));
+    while( $ar_res = $res->GetNext()){
+        $mass[]=$ar_res;
+
+    }
+
+}
+
+
+
+
+$cp=$this->__component;
+if(count($mass)) {
+
+
+    $arResult["META_DESC"]=$arResult["NAME"].", специальное предложение, ".substr($mass[0]["PREVIEW_TEXT"],0,50)."...";
+
+
+}
+else $arResult["META_DESC"]=$arResult["NAME"].", специальное предложение, ".substr(strip_tags($arResult["DETAIL_TEXT"]),0,50)."...";
+
+$cp->SetResultCacheKeys(array("META_DESC"));
+
+
+
 if (!$arResult['MODULES']['catalog'])
 	return;
+
+
+
+
+
+
 
 $arDefaultParams = array(
 	'LABEL_PROP' => '-',
@@ -696,4 +729,6 @@ if (!empty($arResult['DISPLAY_PROPERTIES']))
 }
 
 $arResult['SKU_PROPS'] = $arSKUPropList;
+
+
 ?>

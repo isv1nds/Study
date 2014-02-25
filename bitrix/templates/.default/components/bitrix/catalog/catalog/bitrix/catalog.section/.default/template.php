@@ -172,7 +172,13 @@ foreach ($arResult['ITEMS'] as $key => $arItem)
 		?>
 		</a><?
 	}
-	?><div class="bx_catalog_item_title"><a href="<? echo $arItem['DETAIL_PAGE_URL']; ?>" title="<? echo $arItem['NAME']; ?>"><? echo $arItem['NAME']; ?></a></div>
+	?><div class="bx_catalog_item_title"><a href="<? echo $arItem['DETAIL_PAGE_URL']; ?>" title="<? echo $arItem['NAME']; ?>"><? echo $arItem['NAME']; ?></a>
+
+           </div>
+        <?if($arItem['SPEC_PRED']):?>
+            <div style="color: red; font-size: 10px">Специальное предложение!</div>
+        <?endif?><br/>
+
 	<div class="bx_catalog_item_price"><div id="<? echo $arItemIDs['PRICE']; ?>" class="bx_price"><?
 	if (!empty($arItem['MIN_PRICE']))
 	{
