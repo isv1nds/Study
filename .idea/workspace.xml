@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe858e7-669e-45f7-9a78-9071f7664c71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/php_interface/include/agent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.element/.default/component_epilog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/.default/component_epilog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider/component_epilog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider/result_modifier.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/bitrix/news.list/.default/result_modifier.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/bitrix/news.list/.default/result_modifier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/.parameters.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/.parameters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/lang/en/.parameters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/lang/ru/.parameters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/.parameters.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/.parameters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/lang/en/.parameters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/lang/ru/.parameters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/include/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/include/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/main/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/main/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/php_interface/include/event_hendlers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/php_interface/include/agent.php" afterPath="$PROJECT_DIR$/bitrix/php_interface/include/agent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/folder/innerfolder/index.php" afterPath="$PROJECT_DIR$/folder/innerfolder/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/php_interface/init.php" afterPath="$PROJECT_DIR$/bitrix/php_interface/init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/news.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/news.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/news.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/news.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.element/.default/result_modifier.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.element/.default/result_modifier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/.default/result_modifier.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/.default/result_modifier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/list/result_modifier.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/list/result_modifier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/.default/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/.default/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/bitrix/news.list/.default/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/bitrix/news.list/.default/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/bitrix/news.list/.default/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/bitrix/news.list/.default/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/.default/template_styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/include/test.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/include/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Study.iws" />
@@ -67,16 +43,34 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/folder/innerfolder/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+            <state line="3" column="3" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agent.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="agent.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/php_interface/include/agent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="27" selection-end="27" vertical-scroll-proportion="0.02972028" vertical-offset="0" max-vertical-offset="1020">
+            <state line="25" column="0" selection-start="748" selection-end="748" vertical-scroll-proportion="-5.5" vertical-offset="282" max-vertical-offset="1003">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event_hendlers.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix/php_interface/include/event_hendlers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="39" selection-start="832" selection-end="832" vertical-scroll-proportion="0.75555557" vertical-offset="0" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result_modifier.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider/result_modifier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="440" selection-end="477" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -85,7 +79,7 @@
       <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/php_interface/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="79" selection-start="357" selection-end="357" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="323">
+            <state line="14" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -104,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/bitrix/templates/main/footer.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/lang/ru/footer.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/include/footer.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news_line/lang/en/template.php" />
@@ -155,6 +148,7 @@
         <option value="$PROJECT_DIR$/folder/innerfolder/index.php" />
         <option value="$PROJECT_DIR$/bitrix/php_interface/include/agent.php" />
         <option value="$PROJECT_DIR$/bitrix/php_interface/init.php" />
+        <option value="$PROJECT_DIR$/bitrix/php_interface/include/event_hendlers.php" />
       </list>
     </option>
   </component>
@@ -350,6 +344,142 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news.list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news.list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="php_interface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -468,11 +598,15 @@
       <created>1393241708220</created>
       <updated>1393241708220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit&#10;">
+      <created>1393339357281</created>
+      <updated>1393339357281</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.116504855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -482,7 +616,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24133505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20924261" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31129652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31514764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1124498" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -491,12 +625,12 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33065596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -531,13 +665,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/search.form/search/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/35bf4ec3/bfc6e8b3-1423-403e-a21b-95673014836a/c1mishin..b_iblock">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
@@ -604,303 +731,182 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="748">
-          <folding />
-        </state>
+        <state line="22" column="18" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/bitrix/news.list/.default/.parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/bitrix/news.detail/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="8" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/bitrix/news.list/.default/result_modifier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="350" selection-end="350" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="8" column="1" selection-start="350" selection-end="350" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="76" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="28" column="76" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/include/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
-          <folding>
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392801187000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611">
-          <folding>
-            <marker date="1392633583000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392633583000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392633583000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392633583000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1392633583000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392633583000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392633583000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider/component_epilog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/list/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1564">
-          <folding>
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1392895497000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1564" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="21" selection-start="6991" selection-end="6991" vertical-scroll-proportion="-8.076923" vertical-offset="2623" max-vertical-offset="8211">
-          <folding />
-        </state>
+        <state line="179" column="21" selection-start="6991" selection-end="6991" vertical-scroll-proportion="-8.076923" vertical-offset="2623" max-vertical-offset="8211" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/list/result_modifier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider/result_modifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="71" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/.default/component_epilog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="203" selection-end="206" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="203" selection-end="206" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.element/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="484" column="29" selection-start="15571" selection-end="15588" vertical-scroll-proportion="-3.5" vertical-offset="8046" max-vertical-offset="12138">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dl#1;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="484" column="29" selection-start="15571" selection-end="15588" vertical-scroll-proportion="-3.5" vertical-offset="8046" max-vertical-offset="12138" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.section/.default/result_modifier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="679" column="0" selection-start="22824" selection-end="22865" vertical-scroll-proportion="-6.25" vertical-offset="11218" max-vertical-offset="11764">
-          <folding />
-        </state>
+        <state line="679" column="0" selection-start="22824" selection-end="22865" vertical-scroll-proportion="-6.25" vertical-offset="11218" max-vertical-offset="11764" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.element/.default/result_modifier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="534" selection-end="556" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="12563">
-          <folding />
-        </state>
+        <state line="24" column="5" selection-start="534" selection-end="556" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="12563" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/catalog/catalog/bitrix/catalog.element/.default/component_epilog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/.parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="2027" selection-end="2299" vertical-scroll-proportion="-10.576923" vertical-offset="1034" max-vertical-offset="1598">
-          <folding />
-        </state>
+        <state line="77" column="0" selection-start="2027" selection-end="2299" vertical-scroll-proportion="-10.576923" vertical-offset="1034" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="7" selection-start="3526" selection-end="3616" vertical-scroll-proportion="-19.192308" vertical-offset="912" max-vertical-offset="1598">
-          <folding />
-        </state>
+        <state line="83" column="7" selection-start="3526" selection-end="3616" vertical-scroll-proportion="-19.192308" vertical-offset="912" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="48" selection-start="3616" selection-end="3616" vertical-scroll-proportion="-15.961538" vertical-offset="1013" max-vertical-offset="1598">
-          <folding />
-        </state>
+        <state line="84" column="48" selection-start="3616" selection-end="3616" vertical-scroll-proportion="-15.961538" vertical-offset="1013" max-vertical-offset="1598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/.parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="20" selection-start="2293" selection-end="2293" vertical-scroll-proportion="-17.76923" vertical-offset="1017" max-vertical-offset="1632">
-          <folding />
-        </state>
+        <state line="87" column="20" selection-start="2293" selection-end="2293" vertical-scroll-proportion="-17.76923" vertical-offset="1017" max-vertical-offset="1632" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/lang/en/.parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="666" selection-end="744" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="666" selection-end="744" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/lang/en/.parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="744" selection-end="744" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="11" column="38" selection-start="744" selection-end="744" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/lang/ru/.parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="680" selection-end="789" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="680" selection-end="789" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/lang/ru/.parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="789" selection-end="789" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/bitrix/news.list/.default/result_modifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="321" selection-end="336" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="11" column="54" selection-start="789" selection-end="789" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news_c/bitrix/news.list/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="819" selection-end="955" vertical-scroll-proportion="-7.6538463" vertical-offset="56" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="15" column="4" selection-start="819" selection-end="955" vertical-scroll-proportion="-7.6538463" vertical-offset="56" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/bitrix/news.list/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1297" selection-end="1297" vertical-scroll-proportion="-16.346153" vertical-offset="102" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="31" column="0" selection-start="1297" selection-end="1297" vertical-scroll-proportion="-16.346153" vertical-offset="102" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/include/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="708" selection-end="708" vertical-scroll-proportion="-0.65384614" vertical-offset="272" max-vertical-offset="1275">
-          <folding />
-        </state>
+        <state line="17" column="32" selection-start="708" selection-end="708" vertical-scroll-proportion="-0.65384614" vertical-offset="272" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/inner/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/main/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/inner/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/main/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/main/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="-8.5" vertical-offset="51" max-vertical-offset="4607">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="-8.5" vertical-offset="51" max-vertical-offset="4607" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1369" column="18" selection-start="35371" selection-end="35371" vertical-scroll-proportion="-7.5384617" vertical-offset="23077" max-vertical-offset="31824">
-          <folding />
-        </state>
+        <state line="1369" column="18" selection-start="35371" selection-end="35371" vertical-scroll-proportion="-7.5384617" vertical-offset="23077" max-vertical-offset="31824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/.section.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/folder/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="18.5" vertical-offset="481" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="18.5" vertical-offset="481" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/include/test.php">
@@ -912,21 +918,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/folder/innerfolder/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+        <state line="3" column="3" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/php_interface/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="79" selection-start="357" selection-end="357" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="323">
+        <state line="14" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/php_interface/include/agent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="27" selection-end="27" vertical-scroll-proportion="0.02972028" vertical-offset="0" max-vertical-offset="1020">
+        <state line="25" column="0" selection-start="748" selection-end="748" vertical-scroll-proportion="-5.5" vertical-offset="282" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/feed_c/bitrix/news.list/.default/result_modifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="321" selection-end="336" vertical-scroll-proportion="0.1486014" vertical-offset="0" max-vertical-offset="572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider/result_modifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="440" selection-end="477" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/include/event_hendlers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="39" selection-start="832" selection-end="832" vertical-scroll-proportion="0.75555557" vertical-offset="0" max-vertical-offset="714">
           <folding />
         </state>
       </provider>

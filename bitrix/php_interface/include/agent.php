@@ -5,6 +5,7 @@ function checkfeed(){
         $lastTime=date("d.m.Y H:i:s",time()-3600*24);
         $time=date("d.m.Y H:i:s");
         $res=CIBlockElement::GetList(array(), array('IBLOCK_ID'=>6,'><DATE_CREATE'=>array($lastTime,$time )),false, false, array('ID','NAME','DATE_CREATE'));
+        $arItem=array();
         while($row=$res->GetNextElement()){
 
             $fields=$row->GetFields();
@@ -23,7 +24,7 @@ function checkfeed(){
         ));
 
 
-        if(count($arItem)){
+        if(count($arItem)>0){
             $filter=array("GROUPS_ID"=>array(1));
             $rsUsers = CUser::GetList(($by="personal_country"), ($order="desc"), $filter);
             $arEmail=array();
@@ -34,8 +35,8 @@ function checkfeed(){
             if(count($arEmail)>0){
 
                 $arEventFields=array(
-                    "TEXT" => count($arEmail),
-                    "EMAIL" => implode(', ',$arEmail) ,
+                    "TEXT" => count($arItem),
+                    "EMAIL" => implode(',',$arEmail),
                 );
                 CEvent::Send("CHECK_FEED", SITE_ID, $arEventFields);
 
@@ -44,8 +45,6 @@ function checkfeed(){
         }
 
     }
-
-
 return "checkfeed();";
 
 
