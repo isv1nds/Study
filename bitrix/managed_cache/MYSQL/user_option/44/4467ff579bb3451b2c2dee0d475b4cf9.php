@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001392634568';
-$dateexpire = '001392638168';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";N;}';
+$datecreate = '001393506761';
+$dateexpire = '001393510361';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{s:14:"form_element_2";a:1:{s:4:"tabs";s:1147:"edit1--#--Товар--,--ACTIVE--#--Активность--,--ACTIVE_FROM--#--Начало активности--,--ACTIVE_TO--#--Окончание активности--,--NAME--#--*Название--,--CODE--#--*Символьный код--,--SORT--#--Сортировка--,--IBLOCK_ELEMENT_PROP_VALUE--#----Значения свойств--,--PROPERTY_1--#--Специальное предложение--,--PROPERTY_2--#--Цена--,--PROPERTY_3--#--Валюта цены (подпись)--,--DETAIL_PICTURE--#--Детальная картинка--,--DETAIL_TEXT--#--Детальное описание--,--PROPERTY_4--#--Габариты (Д х Ш х В)--,--PROPERTY_5--#--Размеры спального места--,--PROPERTY_6--#--Артикул--,--PROPERTY_7--#--Материал--,--PROPERTY_8--#--Производитель--,--SECTIONS--#--Разделы--,--PROPERTY_14--#--Акция--,--PROPERTY_15--#--Новинка--,--PROPERTY_13--#--Спецпредложение--;--cedit1--#--Описание--,--PREVIEW_PICTURE--#--Картинка для анонса--,--PREVIEW_TEXT--#--Описание для анонса--;--";}s:14:"form_element_5";a:1:{s:4:"tabs";s:457:"edit1--#--Слайд--,--ACTIVE--#--Активность--,--ACTIVE_FROM--#--Начало активности--,--ACTIVE_TO--#--Окончание активности--,--NAME--#--*Название--,--SORT--#--Сортировка--,--IBLOCK_ELEMENT_PROP_VALUE--#----Значения свойств--,--PROPERTY_9--#--Ссылка--,--PREVIEW_PICTURE--#--Картинка для анонса--,--PREVIEW_TEXT--#--Описание для анонса--;--";}s:14:"form_element_6";a:1:{s:4:"tabs";s:455:"edit1--#--Отзыв--,--ACTIVE--#--Активность--,--ACTIVE_FROM--#--Начало активности--,--ACTIVE_TO--#--Окончание активности--,--SORT--#--Сортировка--,--NAME--#--*Название--,--PROPERTY_11--#--Должность--,--DETAIL_PICTURE--#--Детальная картинка--,--PREVIEW_PICTURE--#--Картинка для анонса--,--PREVIEW_TEXT--#--Описание для анонса--;--";}}}';
 return true;
 ?>

@@ -1,4 +1,8 @@
 <?
+$PERM["folder"]["*"]="D";
+$PERM["folder"]["G6"]="R";
+$PERM["folder"]["G5"]="W";
+$PERM["folder"]["G1"]="X";
 $PERM["search"]["5"]="W";
 $PERM["products"]["5"]="W";
 $PERM["services"]["5"]="W";

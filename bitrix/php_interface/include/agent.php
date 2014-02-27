@@ -38,8 +38,8 @@ function checkfeed(){
                     "TEXT" => count($arItem),
                     "EMAIL" => implode(',',$arEmail),
                 );
-                CEvent::Send("CHECK_FEED", SITE_ID, $arEventFields);
-
+                CEvent::Send("CHECK_FEED", "s1", $arEventFields);
+                CEvent::CheckEvents();
 
             }
         }

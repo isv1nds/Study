@@ -1,8 +1,8 @@
 <?
-$sSectionName = "Главная";
-$arDirProperties = array(
+$sSectionName = "Условия сотрудничества";
+$arDirProperties = Array(
    "description" => "Выгодное партнерство",
    "keywords" => "партнер, мебель, продажа",
-   "robots" => "index, follow"
+   "ROBOTS" => "index, follow"
 );
 ?>

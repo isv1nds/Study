@@ -1,6 +1,13 @@
 <?
 $aMenuLinks = Array(
 	Array(
+		"", 
+		"/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
 		"Компания", 
 		"company/", 
 		Array(), 
@@ -22,6 +29,13 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
+		"Фотогалерея", 
+		"/photo/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
 		"Контакты", 
 		"contacts/", 
 		Array(), 
@@ -29,15 +43,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Фотогалерея", 
-		"/products/folder/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
 		"Партнерам", 
-		"/folder/", 
+		"folder/", 
 		Array(), 
 		Array(), 
 		"" 

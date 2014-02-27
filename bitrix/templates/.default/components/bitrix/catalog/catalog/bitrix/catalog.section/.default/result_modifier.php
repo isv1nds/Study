@@ -681,7 +681,26 @@ $cp->SetResultCacheKeys(array("ISSPEC"));
 
 
 }
+/*
+ *
+ *
+ */
 
+//dump3($arResult);
 
+if(CModule::IncludeModule("iblock")){
+    $mass2=array();
+    $res=CIBlockElement::GetList(array(), array("IBLOCK_ID"=>2,"ID"=>$mass,"SECTION_ID"=> $arResult["ID"]),false, false, array("NAME","DETAIL_PAGE_URL"));
+    while( $ar_res = $res->GetNext()){
+        $mass2[]=$ar_res;
+
+    }
+
+}
+if(count($mass2)>0){
+
+    $arResult["LEFT_PANEL"]=$mass2;
+
+}
 
 ?>

@@ -2,11 +2,19 @@
 $aMenuLinks = Array(
 	Array(
 		"Условия сотрудничества", 
-		"/folder", 
+		"/folder",
 		Array(), 
 		Array(), 
 		"" 
 	),
+    Array(
+        "Предложить свою новость",
+        "/folder/your-new.php",
+        Array(),
+        Array(),
+        ""
+    ),
+
 	Array(
 		"Расписание мероприятий", 
 		"/folder/mero/", 

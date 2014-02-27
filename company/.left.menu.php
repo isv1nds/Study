@@ -1,8 +1,8 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"О компании", 
-		"./", 
+		"Отзывы", 
+		"/company/feed/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -36,8 +36,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Отзывы", 
-		"/company/feedback.php", 
+		"Тестовый раздел", 
+		"/company/test/", 
 		Array(), 
 		Array(), 
 		"" 

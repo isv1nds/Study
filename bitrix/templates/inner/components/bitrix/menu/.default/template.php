@@ -14,7 +14,7 @@ foreach($arResult as $arItem):?>
 		<?=str_repeat("</ul></li>", ($previousLevel - $arItem["DEPTH_LEVEL"]));?>
 	<?endif?>
 
-	<?if ($arItem["IS_PARENT"]):?>
+	<?if ($arItem["IS_PARENT"]&&$arItem["PERMISSION"] > "D"):?>
 
 		<?if ($arItem["DEPTH_LEVEL"] == 1):?>
 			<li class="<?if ($arItem["SELECTED"]):?>open current<?else:?>close<?endif?>"><span class="sb_showchild"></span><a href="<?=$arItem["LINK"]?>" ><span><?=$arItem["TEXT"]?></span></a>
@@ -44,7 +44,7 @@ foreach($arResult as $arItem):?>
 
 <?endforeach?>
 
-<?if ($previousLevel > 1)://close last item tags?>
+<?if ($previousLevel > 1&&$arItem["PERMISSION"] > "D")://close last item tags?>
 	<?=str_repeat("</ul></li>", ($previousLevel-1) );?>
 <?endif?>
 

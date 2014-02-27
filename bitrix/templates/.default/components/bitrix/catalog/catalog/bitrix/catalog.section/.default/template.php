@@ -2,8 +2,35 @@
 /*
  * $arItem['SECOND_PICT']
  */
+if($arResult["LEFT_PANEL"]):
+
+$this->SetViewTarget("slider_elements")?>
+
+
+    <div class="sb_text_block">
+            <ul>
+              <?foreach($arResult["LEFT_PANEL"] as $aItem):?>
+                    <li>
+                        <a href="<?echo $aItem["DETAIL_PAGE_URL"]?>">
+                            <?=$aItem["NAME"]?>
+                        </a>
+                    </li>
+              <?endforeach?>
+             </ul>
+        </div>
+
+<?$this->EndViewTarget();?>
+<?endif?>
+
+<?
+
 if (!empty($arResult['ITEMS']))
 {
+
+
+
+
+
 	CJSCore::Init(array("popup"));
 	$arSkuTemplate = array();
 	if (!empty($arResult['SKU_PROPS']))
